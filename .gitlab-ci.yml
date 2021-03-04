@@ -1,0 +1,9 @@
+image: "docker.corp.geoscan.aero/instructions/docker/sphinx-rtd-theme:latest"
+
+pages:
+  script:
+  - make html
+  - mv _build/html/ public/
+  artifacts:
+    paths:
+    - public
