@@ -396,49 +396,31 @@ UAV will take off.
 
 При возникновении отказа на панели телеметрии в графе Отказы отобразится сообщение о типе ошибки. Ниже представлена таблица возможных сообщений панели и действия по устранению проблем.
 
+"LINK_ERROR", "Link error: for a long timeautopilot did not receive messages from the ground control station", "Reinizialize preparing wizard. Contact support"
+
 
 .. csv-table:: 
    :header: "Failture", "Description", "Actions"
    :widths: 7, 15, 20
 
-    "AIRSTART", "An unscheduled autopilot reboot occurred", "Осуществите немедленную посадку. Свяжитесь со службой поддержки"
-    "GNSS_ERROR", "Satellite receiver error", "Обновите лицензию. Свяжитесь со службой поддержки "
-    "ACCEL_ERROR", "UAV  Orientation  system  error, data from the accelerometer is not received", "Подключитесь к интернету для обновления файла зон. Свяжитесь со службой поддержки "
-    "EEPROM_ERROR", "Error  of  reading  or  writing non energy-based memory", "Подключитесь к интернету для обновления файла зон. Свяжитесь со службой поддержки "
-    "LINK_ERROR", "Link error: for a long timeautopilot did not receive messages from the ground controlstation", "Перепройдите предстартовую подготовку. Свяжитесь со службой поддержки "
-    "PHOTO_ERROR", "An   error   of   photographing occured", "Обновите лицензию. Свяжитесь со службой поддержки "
-    "GYRO_ERROR", "UAV  orientation  system  error, data from the gyroscopeis not received", "Происходит отключение фотокамеры, БВС выполняет полет к месту посадки "
-    "ALT_ERROR", "UAV    height    measurementsensor  error,  data  from  thebarometer is not received", "Дождитесь инициализации автопилота "
-    "NOT_READY", "UAV  is  not  ready  to  change its status", "Свяжитесь со службой поддержки"
-    "HPGNSS_ERROR", "High-precision receiver error", "Подключитесь к интернету для обновления файла зон. Свяжитесь со службой поддержки"
-    "LOGGER_ERROR", "Flight log recording error", "Подключитесь к интернету для обновления файла зон. Свяжитесь со службой поддержки"
-    "FLASH_ERROR", "Отсутствует связь с двигателем", "Свяжитесь со службой поддержки"
-    "MAG_ERROR", "Отсутствует синхронизация внутреннего времени автопилота со временем от спутникового приемника", "Дождитесь синхронизации"
-    "AS_ERROR", "Ошибка системы ориентации БВС, не приходят данные с акселерометра", "Свяжитесь со службой поддержки "
-    "NO_GNSS_TIME", "Ошибка датчика измерения высоты, не приходят данные с барометра", "Свяжитесь со службой поддержки "
-    "ОШИБКА ГНСС ", "Ошибка приемника спутниковой навигации", "Перевключите БВС"
-    "ОШИБКА ГИРОСКОПА ", "Ошибка системы ориентации БВС, не приходят данные с гироскопа", "Свяжитесь со службой поддержки "
-    "ОШИБКА EEPROM ", "Ошибка чтения или записи энергонезависимой памяти", "Свяжитесь со службой поддержки "
-    "ОШИБКА КАРТЫ ", "Ошибка внешнего постоянного хранилища данных: не удалось инициализировать внешнюю карту памяти", "Проверьте карту памяти"
-    "ОШИБКА КОМПАСА ", "Ошибка датчика определения направления, не приходят данные с магнитометра", "Осуществите немедленную посадку"
-    "ОШИБКА КРЛ ", "Ошибка канала связи: автопилот в течение длительного времени не получал сообщений от наземной станции управления", "Проверьте бортовой модем после возвращения борта "
-    "ОШИБКА ЛИЦЕНЗИИ ", "Ошибка проверки лицензии на полет", "Попробуйте перезагрузить файл лицензии. Свяжитесь со службой поддержки"
-    "ОШИБКА ЛОГГЕРА ", "Ошибка записи полетного лога", "Проверьте карту памяти автопилота"
-    "ОШИБКА НАСТРОЙКИ ", "Ошибка в параметрах автопилота", "Свяжитесь со службой поддержки" 
-    "ОШИБКА ПЗ ", "Ошибка выполнения загруженного полетного задания", "Попробуйте обновить полетное задание. Свяжитесь со службой поддержки"
-    "ОШИБКА ПИТАНИЯ ", "Ошибка питания автопилота", "Перевключите БВС "
-    "ОШИБКА ФОТО ", "Произошла ошибка фотографирования", "Перевключите фотокамеру/проверьте флеш-карту фотокамеры"
-    "ПЕРЕЗАГРУЗКА ", "Произошла внеплановая перезагрузка автопилота", "Свяжитесь со службой поддержки"
-    "ФОТО: НЕТ КАРТЫ ", "Отсутствует карта памяти", "Вставьте карту в фотокамеру"
-    "ФОТО: ОШИБКА КАРТЫ ", "Ошибка чтения/записи карты памяти", "Снимите защиту карты от записи"
-    "ФОТО: ОШИБКА ПИТ ", "Напряжение питания фотоаппарата слишком высокое", "Перевключите БВС"
-    "ФОТО: НИЗКОЕ НАПРЯЖЕНИЕ ", "Напряжение питания фотоаппарата слишком низкое", "Перевключите БВС"
-    "ФОТО: ОШИБКА СИНХ ", "Потеря сигнала синхронизации времени", "Перевключите БВС"
-    "ФОТО: ТЕМПЕРАТУРА ", "Фотокамера перегрета или переохлаждена", "Поместите фотокамеру в условия комнатной температуры"
+    "AIRSTART", "An unscheduled autopilot reboot occurred", "The   plane   will   eject   theparachute"
+    "GNSS_ERROR", "Satellite receiver error", "Switch the aircraft"
+    "ACCEL_ERROR", "UAV  Orientation  system  error, data from the accelerometer is not received", "During the flight — throw out the parachute.  Contact support"
+    "EEPROM_ERROR", "Error  of  reading  or  writing non energy-based memory", "Contact support"
+    "LINK_ERROR", "Link error: for a long time autopilot did not receive messages from the ground control station", "Check  the  on-board  modem after return of the aircraft"
+    "PHOTO_ERROR", "An   error   of   photographing occured", "Check the memory card of the camera and re-on it"
+    "GYRO_ERROR", "UAV  orientation  system  error, data from the gyroscopeis not received", "During the flight - throw out the parachute.  Contact support"
+    "ALT_ERROR", "UAV    height    measurement sensor  error,  data  from  the barometer is not received", "During the flight - throw out the parachute.  Contact sup-port"
+    "NOT_READY", "UAV  is  not  ready  to  change status", "Wait for the end of autopilot initializing"
+    "HPGNSS_ERROR", "High-precision receiver error", "Switch the aircraft"
+    "LOGGER_ERROR", "Flight log recording error", "Check memory card"
+    "FLASH_ERROR", "External   data   storage   error:  initialization of external memory card failed", "Check memory card"
+    "MAG_ERROR", "UAV  direction  sensor  error,data from the magnetometeris not received", "Execute immediate landing"
+    "AS_ERROR", "Airspeed sensor error", "Before flight - switch the aircraft, during flight - send theaircraft HOME"
+    "NO_GNSS_TIME", "No synchronization of the internal  time  of  the  autopilotwith time of the satellite re-ceiver", "Wait for synchronization"
+    
 
-
-
-Если предложенный вариант действий при отказе не помогает исправить ситуацию, незамедлительно свяжитесь со службой поддержки.
+Contact the support if these actions does not help to solve a problem.
 
 
 .. _`Launch`: launch.html
