@@ -23,7 +23,7 @@ Camera type depends on delivery kit.
 Sony DSC-RX1RM2 Settings
 ------------------------------------------
 
- Carfully read `Camera Operating Instructions <https://www.sony.com/electronics/support/res/manuals/4579/45798651M.pdf>`_ to get information about functions and control elements before change settings.
+ Carfully read `Sony RX1RM2 Operating Instructions <https://www.sony.com/electronics/support/res/manuals/4579/45798651M.pdf>`_ to get information about functions and control elements before change settings.
 
 Basic camera control elements are shown on the picture:
 
