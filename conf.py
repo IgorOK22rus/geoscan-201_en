@@ -20,8 +20,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Geoscan 201'
-copyright = ''
-author = ''
+copyright = 'Geoscan Group'
+author = 'Geoscan'
 
 # The short X.Y version
 version = ''
@@ -86,7 +86,7 @@ def setup(app):
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-html_theme_options = {'logo_only': True,}
+html_theme_options = {'logo_only': True, 'collapse_navigation': False,}
 
 html_logo = "_static/_images/logo.png"
 html_favicon = "_static/_images/favicon.ico"
@@ -153,7 +153,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, '201_eng.tex', '',
+    (master_doc, 'Geoscan_201_Manual_En.tex', '',
      '', 'manual'),
 ]
 
@@ -163,7 +163,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, '201_eng', '201_eng Documentation',
+    (master_doc, 'Geoscan_201_Manual_En', 'Geoscan 201 User Manual',
      [author], 1)
 ]
 
@@ -174,8 +174,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, '201_eng', '201_eng Documentation',
-     author, '201_eng', 'One line description of project.',
+    (master_doc, 'Geoscan_201_Manual_En', 'Geoscan 201 User Manual',
+     author, 'Geoscan_201_Manual_En', 'One line description of project.',
      'Miscellaneous'),
 ]
 
