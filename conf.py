@@ -86,8 +86,10 @@ def setup(app):
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-html_theme_options = {'logo_only': True, 'collapse_navigation': False,}
-
+html_theme_options = {
+    'logo_only': True,
+'collapse_navigation': False,
+}
 html_logo = "_static/_images/logo.png"
 html_favicon = "_static/_images/favicon.ico"
 html_show_sphinx = False
@@ -112,10 +114,9 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = '201_eng'
+htmlhelp_basename = 'Geoscan_Lite_Manual_En'
 
 latex_logo = "_static/_images/logo_latex.png"
-
 # -- Options for LaTeX output ------------------------------------------------
 
 latex_elements = {
