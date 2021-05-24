@@ -1,12 +1,7 @@
-Camera settings
+Camera Settings
 =========================
 
-Camera types depends on delivery kit.
-
 .. |icon_cam| image:: _static/_images/icon_cam.png
-    :width: 25
-
-.. |icon_key| image:: _static/_images/icon_key.png
     :width: 25
 
 .. |icon_set| image:: _static/_images/icon_set.png
@@ -18,60 +13,122 @@ Camera types depends on delivery kit.
 .. |icon_sd| image:: _static/_images/icon_sd.png
     :width: 25
 
+.. |icon_key| image:: _static/_images/icon_key.png
+    :width: 25
+
+This section contains recommended settings for cameras. 
+
+Camera type depends on delivery kit.
+
 Sony DSC-RX1RM2 Settings
 ------------------------------------------
 
-Before changing any settings, carfully read `Camera Operating Instructions <https://www.sony.com/electronics/support/res/manuals/4579/45798651M.pdf>`_ to get information about functions and control elements.
+ Carfully read `Camera Operating Instructions <https://www.sony.com/electronics/support/res/manuals/4579/45798651M.pdf>`_ to get information about functions and control elements before change settings.
 
-* Set mode to **S** (Exposure priority) by mode dial.
-* Set exposure **1/800**  by control dial.
-* Set exposure to **0** (Zero) by exposure compensation dial.
-* Set macro to **0,3m-∞** by macro switching ring.
-* Set focus mode dial to **MF**.
+Basic camera control elements are shown on the picture:
 
-To set camera parameters, push **MENU** button, then select parameters according to the following instructions.
+.. figure:: _static/_images/RX1RM2_control_2in1.png
+   :width: 1200
+   :align: center
 
-* Turn off **Auto review** in |icon_set| user settings menu (tab 2) and set **MOVIE Button** — **Movie Mode Only** (tab 6).
+Camera presets
+___________________
 
-.. figure:: _static/_images/menu2_en.png
+Geoscan UAVs are equipped with 2 presets for Sony DSC-RX1RM2 cameras.
+
+Use **Mode dial** near ``on\off`` switcher to select preset for your needs.
+
+*Preset 1* serves for shooting in normal daylight conditions. The aperture value is fixed, which provides fixed exposure of photos for better ortophotomosaic generation.
+
+Use these settings for this mode:
+
+* Set **Mode dial** in **1** position.
+* Set **Focus mode dial** in **MF** position.
+* Set **Exposure compensation dial** in **0** position.
+* Set **Macro switching ring** in **0,3m-∞** position.
+* Set **Aperture ring** in **4,5** (first mark after 4)
+
+*Preset 2* — universal set with automatic variable exposure control (Shutter Priority).
+
+Use these settings for this mode:
+
+* Set **Mode dial** in **2** position.
+* Set **Focus mode dial** in **MF** position.
+* Set **Macro switching ring** in **0,3m-∞** position.
+
+The aperture value is not taken into account.
+
+*Preset 3* can be used for user settings.
+
+Select settings in menu, go to |icon_cam| camera settings (tab 8) and select **Memory**.
+
+Set **Mode dial** in **3** position and press button in the middle of **Control wheel**.
+
+
+Restoring presets
+___________________
+
+Settings of 1 and 2 presets can be restored, if you change them. 
+
+For preset 1 restoring:
+
+* Set **Mode dial** in position **M** (Manual aperture control).
+* Set shutter speed **1/1000** by **Control dial**.
+* Select **ISO** — **Auto** in camera menu.
+
+Press menu button, go to |icon_cam| camera settings (tab 8) and select **Memory**.
+
+Set **Mode dial** in **1** position and press button in the middle of **Control wheel**.
+
+
+For preset 2 restoring:
+
+* Set **Mode dial** in position **S** (Shutter priority).
+* Set shutter speed **1/1000** by **Control dial**.
+* Select **ISO** — **Auto** in camera menu.
+
+Press menu button, go to |icon_cam| camera settings (tab 8) and select **Memory**.
+
+Set **Mode dial** in **2** position and press button in the middle of **Control wheel**.
+
+If you change or reset settings you also need to switch off automatic photo review and shooting by MOVIE button, set maximum time before powersaving start and reset for file number. Change these settings:
+
+* Switch off **Auto Review** in |icon_set| user settings (tab 2) and **MOVIE Button** — **Video Mode Only** (tab 6).
+
+.. figure:: _static/_images/RX1RM2_menu2.png
    :width: 400
    :align: center
 
-   Auto review off
+   Auto review — off
 
-
-.. figure:: _static/_images/menu_en.png
+.. figure:: _static/_images/RXRM2_video.png
    :width: 400
    :align: center
 
-   Movie mode only for MOVIE Button
+   «Video mode only» for MOVIE button
 
+* In |icon_bag| settings section set **Power Saving Start Time** — **30 min.** (tab 2) и **File Number** — **Reset** (tab 5).
 
-
-* In |icon_bag| settings set **Pwr Save Start Time** — **30 min** (tab 2) and **File Number** — **Reset** (tab 5).
-
-.. figure:: _static/_images/Pwr_save_en.png
+.. figure:: _static/_images/RX1RM2_pwr_save.png
    :width: 400
    :align: center
 
-   Power save time setting
+   Power saving start time
 
 
-.. figure:: _static/_images/number_en.png
+.. figure:: _static/_images/RX1RM2_res.png
    :width: 400
    :align: center
 
    File number reset
 
 
-Other settings should not be changed as they are used in default mode.
-
-
-**SD Card Formating**
+SD Card Formating
+______________________
 
 * In |icon_bag| settings menu (tab 5) select **Format**.
 
-.. figure:: _static/_images/format_en.png
+.. figure:: _static/_images/RX1RM2_format.png
    :width: 400
    :align: center
 
@@ -81,11 +138,15 @@ Other settings should not be changed as they are used in default mode.
 .. attention::  All data on SD card will be deleted!
 
 
-**Settings reset**
+Settings reset
+________________
+
+Reset of the camera will delete presets' shooting settings (Presets 1 and 2)!
+
 
 1) In |icon_bag| settings menu (tab 6) select **Setting Reset**
 
-.. figure:: _static/_images/reset_en.png
+.. figure:: _static/_images/RX1RM2_factory.png
    :width: 400
    :align: center
 
@@ -109,16 +170,25 @@ Other settings should not be changed as they are used in default mode.
 Sony DSC-RX1 Settings
 ------------------------------------------
 
-Before changing any settings, carfully read `Camera Operating Instructions <https://www.sony.com/electronics/support/res/manuals/4469/44695771M.pdf>`_ to get information about functions and control elements.
+Carfully read `Camera Operating Instructions <https://www.sony.com/electronics/support/res/manuals/4469/44695771M.pdf>`_ to get information about functions and control elements before change settings.
 
-* Set mode to **S** (Exposure priority) by mode dial.
-* Set exposure **1/800**  by control dial.
-* Set exposure to **0** (Zero) by exposure compensation dial.
-* Set macro to **0,3m-∞** by macro switching ring.
-* Set focus mode dial to **MF**.
+Basic camera control elements are shown on the picture:
 
-To set camera parameters, push **MENU** button, then select parameters according to the following instructions.
+.. figure:: _static/_images/RX1_control_2in1.png
+   :width: 1200
+   :align: center
 
+* Set shutter speed **1/1000** by **Control dial**.
+* Set **Exposure compensation dial** in **0** (zero) position.
+* Set **Macro switching ring** in **0,3m-∞** position.
+* Set **Focus mode dial** in **MF** position.
+
+* For normal daylight conditions switch **Mode dial** in **M** (Manual exposure control) position and **Aperture ring** in **4,5** (first mark after 4) position.
+* For cloudy weather switch **Mode dial** in **S** (Shutter priority) position. The aperture value is not taken into account in this mode.
+
+
+
+To set camera soft parameters, push **MENU** button, then select parameters according to the following instructions.
 
 
 * In user settings menu |icon_set| (tab 1) turn off **Automatic preview**.
@@ -155,7 +225,7 @@ To set camera parameters, push **MENU** button, then select parameters according
    Power saving time 
 
 
-* In memory card menu |icon_sd| select**File №** - **Clear**.
+* In memory card menu |icon_sd| select **File №** - **Clear**.
 
 .. figure:: _static/_images/menu3.png
    :width: 400
@@ -174,7 +244,7 @@ Other settings should not be changed as they are used in default mode.
 
 Follow these steps to set default settings:
 
-1) Select **MENU** → **Settings menu** → **INITIALISATION** → **Reset**
+1) Select **MENU** →|icon_key| **Settings menu** → **INITIALISATION** → **Reset**
 
 .. attention::  Do not remove the battery during a reset process!
 
