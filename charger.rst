@@ -1,4 +1,4 @@
-Charger and battery
+Charger and Battery
 =========================
 
 .. csv-table:: **Battery specifications**
