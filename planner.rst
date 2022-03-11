@@ -1,4 +1,4 @@
-Geoscan Planner
+Geoscan Planner Software
 ==============================
 
 Preset
