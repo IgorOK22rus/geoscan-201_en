@@ -391,36 +391,4 @@ UAV will take off.
 .. note:: See more information in `Launch`_ section.
 
 
-Действия при отказах
-----------------------
-
-При возникновении отказа на панели телеметрии в графе Отказы отобразится сообщение о типе ошибки. Ниже представлена таблица возможных сообщений панели и действия по устранению проблем.
-
-"LINK_ERROR", "Link error: for a long timeautopilot did not receive messages from the ground control station", "Reinizialize preparing wizard. Contact support"
-
-
-.. csv-table:: 
-   :header: "Failture", "Description", "Actions"
-   :widths: 7, 15, 20
-
-    "AIRSTART", "An unscheduled autopilot reboot occurred", "The   plane   will   eject   theparachute"
-    "GNSS_ERROR", "Satellite receiver error", "Switch the aircraft"
-    "ACCEL_ERROR", "UAV  Orientation  system  error, data from the accelerometer is not received", "During the flight — throw out the parachute.  Contact support"
-    "EEPROM_ERROR", "Error  of  reading  or  writing non energy-based memory", "Contact support"
-    "LINK_ERROR", "Link error: for a long time autopilot did not receive messages from the ground control station", "Check  the  on-board  modem after return of the aircraft"
-    "PHOTO_ERROR", "An   error   of   photographing occured", "Check the memory card of the camera and re-on it"
-    "GYRO_ERROR", "UAV  orientation  system  error, data from the gyroscopeis not received", "During the flight - throw out the parachute.  Contact support"
-    "ALT_ERROR", "UAV    height    measurement sensor  error,  data  from  the barometer is not received", "During the flight - throw out the parachute.  Contact sup-port"
-    "NOT_READY", "UAV  is  not  ready  to  change status", "Wait for the end of autopilot initializing"
-    "HPGNSS_ERROR", "High-precision receiver error", "Switch the aircraft"
-    "LOGGER_ERROR", "Flight log recording error", "Check memory card"
-    "FLASH_ERROR", "External   data   storage   error:  initialization of external memory card failed", "Check memory card"
-    "MAG_ERROR", "UAV  direction  sensor  error,data from the magnetometeris not received", "Execute immediate landing"
-    "AS_ERROR", "Airspeed sensor error", "Before flight - switch the aircraft, during flight - send theaircraft HOME"
-    "NO_GNSS_TIME", "No synchronization of the internal  time  of  the  autopilotwith time of the satellite re-ceiver", "Wait for synchronization"
-    
-
-Contact the support if these actions does not help to solve a problem.
-
-
 .. _`Launch`: launch.html
