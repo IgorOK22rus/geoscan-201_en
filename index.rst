@@ -6,7 +6,7 @@
 Geoscan 201 Instruction Manual
 ===================================
 
-General information
+General Information
 -------------------------
 
 .. image:: _static/_images/201.png
