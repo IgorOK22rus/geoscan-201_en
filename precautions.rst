@@ -1,4 +1,4 @@
-Safety rules
+Safety Rules
 =======================
 
 **Follow these operating instructions for UAV safe use:**
