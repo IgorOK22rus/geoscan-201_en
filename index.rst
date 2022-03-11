@@ -19,7 +19,7 @@ Geoscan 201 is an aerial photo system which consists of unmanned aerial vehicle 
 Application
 --------------
 
-The complex is designed for geolinked photography of objects and territories.
+The system is designed for geolinked photography of objects and territories.
 
 **Fields of application**
 
